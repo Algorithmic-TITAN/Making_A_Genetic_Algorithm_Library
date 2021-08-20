@@ -94,6 +94,9 @@ class Genetic_algorithm:
                             CHILD_BIASES.append(parent2_biases[i2])
                 full_population_weights.append(CHILD_WEIGHTS)
                 full_population_biases.append(CHILD_BIASES)
+            for i in range(population_size):
+                full_population_weights.pop(0)
+                full_population_biases.pop(0)
 
         elif creation_method=='Random':
             for i1 in range(population_size):
@@ -120,12 +123,9 @@ class Genetic_algorithm:
                             CHILD_BIASES.append(parent2_biases[i2])
                 full_population_weights.append(CHILD_WEIGHTS)
                 full_population_biases.append(CHILD_BIASES)
-            print(full_population_weights, full_population_biases)
+            for i in range(population_size):
+                full_population_weights.pop(0)
+                full_population_biases.pop(0)
         
         else:
             raise Exception('You enetered an Invalid crossover method. To not get this error, give either the string "Sclice" or the string "Random" for the corresponding method.')
-
-Genetic_algorithm.init(3, [2,2,2], (-2,2))
-for i in range(3):
-    Genetic_algorithm.run_network(i, [5,7], [2,2,2])
-    Genetic_algorithm.make_new_generation("Top 2", 'Random', [5,3,10], 3, 10, 50, (-2,2))
