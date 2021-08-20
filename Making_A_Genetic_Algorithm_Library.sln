@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Making_A_Genetic_Algorithm_Library", "Making_A_Genetic_Algorithm_Library.pyproj", "{FBD866F8-E1D4-4DAE-ACD3-A3F093900B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBD866F8-E1D4-4DAE-ACD3-A3F093900B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD866F8-E1D4-4DAE-ACD3-A3F093900B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B393A6-1AA6-40A0-91FA-3FCF31D4A451}
+	EndGlobalSection
+EndGlobal
